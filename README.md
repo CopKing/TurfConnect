@@ -7,6 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About This Project
+
+This Laravel application includes a **CS Strike Game** - a Counter Strike-inspired tactical shooting game built as a single-page web application.
+
+### 🎮 CS Strike Game Features
+
+Play a fast-paced tactical game inspired by Counter Strike with:
+- **Top-down shooting gameplay** with mouse-aim and click-to-shoot mechanics
+- **Round-based gameplay** with increasing difficulty
+- **Economy system** - earn money from kills and wins
+- **Weapon system** with ammunition and reload mechanics
+- **Enemy AI** that patrols, chases, and shoots
+- **Score tracking** with kills/deaths/money statistics
+- **Clean, minimal UI** inspired by CS styling
+- **Responsive controls** (WASD to move, mouse to aim, R to reload)
+
+#### How to Play
+
+1. Navigate to `/game` or click "Play Game" on the homepage
+2. Use **WASD** to move around the arena
+3. Move your **mouse** to aim
+4. **Click** to shoot enemies
+5. Press **R** to reload
+6. Eliminate all enemies to win the round!
+
+For detailed game instructions, see [GAME_README.md](./GAME_README.md)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
