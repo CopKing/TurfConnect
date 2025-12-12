@@ -112,6 +112,11 @@
                     </ul>
                     <ul class="flex gap-3 text-sm leading-normal">
                         <li>
+                            <a href="{{ url('/game') }}" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#ff4500] rounded-sm border border-[#ff4500] text-white text-sm leading-normal" style="background: linear-gradient(135deg, #ff4500, #ff6600); border-color: #ff4500;">
+                                Play Game
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://cloud.laravel.com" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
                                 Deploy now
                             </a>
